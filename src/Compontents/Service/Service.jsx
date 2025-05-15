@@ -70,7 +70,7 @@ function Service() {
 
       </div>
       <div className=" pt-[80px] text-center">
-        <a className='font-secondary font-medium text-lg leading-[20px] py-[20px] px-[48px] border-[1px]  border-secondary text-secondary' href="">View More</a>
+       <button>sjdflksdjfsjk</button>
       </div>
 
 
