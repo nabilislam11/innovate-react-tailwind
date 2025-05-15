@@ -6,7 +6,7 @@ import featureicon3 from '../../assets/featureicon3.png'
 
 function Features() {
   return (
-    <div className=" pb-[55px]">
+    <div className="  pb-[55px]">
       <Container>
         <div className="relative flex justify-between">
           <div className="">
@@ -31,14 +31,15 @@ function Features() {
 
 
 
-            <div className=" flex gap-[96px]">
+            <div className=" flex gap-[96px] items-end">
                 <div className=" ">
                   <img src={featureicon3} alt="#featureicon" />
                   <h2 className=' w-[215px]font-paimary font-bold text-[22px] leading-[32px] text-tittle pt-[14px] pb-[6px]' >Get Organized</h2>
                   <p className='w-[220px] font-secondary text-details font-reguler text-lg  leading-[32px]'>From lists to boards, organize work your way. </p>
                 </div>
-                <a className=' font-secondary font-medium text-lg py-[20px] px-[48px] bg-secondary rounded-[6px] text-white'>Get Started</a>
+                <a className=' font-secondary font-medium text-lg py-[20px] px-[48px] h-[60px] bg-secondary  leading-[20px] rounded-[6px] text-white'>Get Started</a>
               </div>
+
           </div>
         </div>
       </Container>

@@ -9,9 +9,9 @@ import intergrationlogo from '../../assets/intergrationlogo.png'
 
 function Intergration() {
   return (
-    <div className="relative">
+    <div className="relative bg-[#E4F7F7] ">
             <Container>
-            <div className=' flex justify-between' >
+            <div className=' flex justify-between py-[173px]' >
         <div className=" pt-[173px]">
             <h5 className=' font-secondary font-medium text-[20px] text-highlith '>Integrations</h5>
         <h1 className='w-[587px] font-paimary font-bold text-[46px] leading-[58px] text-tittle pt-[4px] '>Easily integrate with your favorite apps</h1>
@@ -20,7 +20,7 @@ function Intergration() {
              <a className=' font-secondary font-medium text-lg py-[20px] px-[48px] bg-secondary rounded-[6px] text-white'>Get Started</a>
         </div>
 
-        <div className="  pt-[124px] ">
+        <div className="  pt-[124px] pb-[120px] ">
             <div className="flex  justify-between">
                 <img className='py-[45px] px-[64px]  bg-white ' src= {frame1} alt="#frame1" />
                 <img className='py-[48px] px-[88px]  bg-white  ' src={frame2} alt="#frame2" />
