@@ -25,7 +25,7 @@ const Navber = () => {
 
 
       <div className=" flex gap-[36px]  items-center">
-        <p className='font-secondary font-medium text-lg  text-white'>Login</p>
+        <p className='font-secondary font-medium text-lg  cursor-pointer text-white'>Login</p>
         <a className=' font-secondary cursor-pointer font-medium text-lg py-5 px-12 bg-paimary rounded-[6px] text-secondary'>Register</a>
      </div>
       </div>
