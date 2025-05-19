@@ -87,6 +87,10 @@ function Footer() {
       </div>
 
 
+      <div className="w-full  border-2 border-gray-100 "></div>
+      <div className="font-final font-reguler  text-[14px] leading-[20px] text-details  pt-[24px] pb-[30px] ">© 2024 Innovate - All Right Reserved</div>
+
+
     </Container>
   )
 }

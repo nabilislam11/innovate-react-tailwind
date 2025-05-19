@@ -8,7 +8,7 @@ const Navber = () => {
     <div className=" py-8 ">
           <Container>
           <nav className='  '>
-      <div className=" flex justify-between items-center pt-[32px]">
+      <div className=" flex justify-between items-center">
        <div className="">
         <img src={logo} alt="#logo" />
        </div>

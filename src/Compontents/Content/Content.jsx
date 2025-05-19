@@ -1,6 +1,9 @@
 import React from 'react'
 import Container from '../layout/Container'
 import icon from '../../assets/icon.png'
+import icon3 from '../../assets/icon3.png'
+import icon2 from '../../assets/icon2.png'
+
 
 function Content() {
     return (
@@ -13,18 +16,18 @@ function Content() {
                 <div className=" flex gap-[200px]">
                     <div className=" text-center">
                         <img className='pt-[116px] mx-auto' src={icon} alt="#icon" />
+                        <h1 className=' w-[300px] font-paimary text-tittle font-bold text-[24px] leading-[36px] pt-[26px] pb-[12px]'>Connect your website with just a few click</h1>
+                        <p className='w-[300px] font-secondary text-details font-reguler text-lg leading-[32px]'> Once your website is online, you can configure it, I will show you how to put your website online</p>
+                    </div>
+                    <div className=" text-center">
+                        <img className='pt-[116px] mx-auto' src={icon3} alt="#icon" />
                         <h1 className=' w-[300px] font-paimary text-tittle font-bold text-[24px] leading-[36px] pt-[26px] pb-[12px]'>Login or sign up to be able use our platform</h1>
                         <p className='w-[300px] font-secondary text-details font-reguler text-lg leading-[32px]'> This quickstart shows you how to use Identity Platform to sign in a user with an email and password. </p>
                     </div>
                     <div className=" text-center">
-                        <img className='pt-[116px] mx-auto' src={icon} alt="#icon" />
-                        <h1 className=' w-[300px] font-paimary text-tittle font-bold text-[24px] leading-[36px] pt-[26px] pb-[12px]'>Login or sign up to be able use our platform</h1>
-                        <p className='w-[300px] font-secondary text-details font-reguler text-lg leading-[32px]'> This quickstart shows you how to use Identity Platform to sign in a user with an email and password. </p>
-                    </div>
-                    <div className=" text-center">
-                        <img className='pt-[116px] mx-auto' src={icon} alt="#icon" />
-                        <h1 className=' w-[300px] font-paimary text-tittle font-bold text-[24px] leading-[36px] pt-[26px] pb-[12px]'>Login or sign up to be able use our platform</h1>
-                        <p className='w-[300px] font-secondary text-details font-reguler text-lg leading-[32px]'> This quickstart shows you how to use Identity Platform to sign in a user with an email and password. </p>
+                        <img className='pt-[116px] mx-auto' src={icon2} alt="#icon" />
+                        <h1 className=' w-[300px] font-paimary text-tittle font-bold text-[24px] leading-[36px] pt-[26px] pb-[12px]'>Take some sales data that you want</h1>
+                        <p className='w-[300px] font-secondary text-details font-reguler text-lg leading-[32px]'> Sell your data directly: The most straightforward method is to sell your data directly to another</p>
                     </div>
                 </div>
 
