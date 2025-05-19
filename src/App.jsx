@@ -9,6 +9,8 @@ import Intergration from "./Compontents/Intergration/Intergration"
 import Service from "./Compontents/Service/Service"
 import Factssection from "./Compontents/Factssection/Factssection"
 import Pricingtable from "./Compontents/Pricingtable/Pricingtable"
+import Testimonial from "./Compontents/Testimonial/Testimonial"
+import Footer from "./Compontents/Footer/Footer"
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
    <Service></Service>
    <Factssection></Factssection>
    <Pricingtable></Pricingtable>
+   <Testimonial></Testimonial>
+   <Footer></Footer>
    </>
   )
 }
