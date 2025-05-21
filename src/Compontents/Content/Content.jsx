@@ -7,7 +7,7 @@ import icon2 from '../../assets/icon2.png'
 
 function Content() {
     return (
-        <div className=" pt-[75px] md:pt-[336px] pb-[160px] px-[50px]">
+        <div className=" pt-[75px] md:pt-[336px]  pb-[37px] md:pb-[160px] px-[50px]">
             <Container>
                 <div className=" items-center md:flex justify-between ">
                     <h1 className=' w-[298px] md:w-[504px] font-paimary text-tittle font-medium md:font-bold text-[31px] md:text-[48px]  leading-[41px] md:leading-[58px]'>How simple is it to use our platform?</h1>
