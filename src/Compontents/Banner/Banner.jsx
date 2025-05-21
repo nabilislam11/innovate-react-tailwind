@@ -3,7 +3,7 @@ import Container from '../layout/Container'
 import leptop from '../../assets/leptop.png'
 function Banner() {
   return (
-    <div className=' pt-[98px] pb-[121px] md:pb-[500px] mb-[50px]'>
+    <div className='  md:pt-[98px] pb-[121px] md:pb-[500px] mb-[50px]'>
       <Container>
       <div className="relative">
          <div className="   text-center">
