@@ -14,27 +14,27 @@ function Intergration() {
     return (
         <div className="relative bg-[#F4FAFA] ">
             <Container>
-                <div className=' flex justify-between ' >
-                    <div className=" py-[173px]">
+                <div className=' md:flex justify-between ' >
+                    <div className=" text-center md:text-start  py-[35px] md:py-[173px]">
                         <h5 className=' font-secondary font-medium text-[20px] text-highlith '>Integrations</h5>
-                        <h1 className='w-[587px] font-paimary font-bold text-[46px] leading-[58px] text-tittle pt-[4px] '>Easily integrate with your favorite apps</h1>
-                        <p className='font-secondary font-reguler text-lg leading-[32px] w-[533px] text-details pt-[20px] pb-[40px]  '>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.
+                        <h1 className=' w-[361px] md:w-[587px] font-paimary font-bold  text-[36px] md:text-[46px] leading-[51px] md:leading-[58px] text-tittle pt-[4px] '>Easily integrate with your favorite apps</h1>
+                        <p className='font-secondary font-reguler text-[17px] md:text-lg leading-[29px] md:leading-[32px]   w-[361px] md:w-[533px] text-details pt-[20px] pb-[40px]  '>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.
                         </p>
                         <a className=' font-secondary font-medium cursor-pointer  text-lg py-[20px] px-[48px] bg-secondary rounded-[6px] text-white'>Get Started</a>
                     </div>
 
-                    <div className="  pt-[109px] pb-[135px] ">
-                        <div className="flex  justify-between w-[694px] mb-[35px]">
+                    <div className=" pt-[55px] md:pt-[109px]  pb-[37px] md:pb-[135px] ">
+                        <div className="flex flex-col md:flex-row   justify-between w-[694px] mb-[35px]">
                             <div className=" flex w-[332px] h-[142px] bg-white rounded-[12px] items-center  justify-center ">  <img src={frame1} alt="#frame1" /></div>
                             <div className=" flex items-center   justify-center w-[332px] h-[142px] bg-white rounded-[12px]">   <img src={frame2} alt="#frame2" /></div>
                         </div>
-                        <div className=" flex justify-between  w-[694px] mb-[35px]">
+                        <div className=" flex flex-col md:flex-row  justify-between  w-[694px] mb-[35px]">
                             <div className=" flex items-center   justify-center  w-[151px] h-[142px] bg-white rounded-[12px]   "> <img src={frame3} alt="#frame3" /></div>
                             <div className="flex items-center   justify-center  w-[332px] h-[142px] bg-white rounded-[12px]"><img src={frame4} alt="#frame4" /></div>
                             <div className="flex items-center   justify-center  w-[151px] h-[142px] bg-white rounded-[12px]">  <img src={frame5} alt="#frame5" /></div>
 
                         </div>
-                        <div className=" flex justify-between  w-[694px] mb-[35px]">
+                        <div className=" flex flex-col md:flex-row   md:justify-between  w-[694px] mb-[35px]">
                             <div className=" flex items-center   justify-center  w-[290px] h-[142px] bg-white rounded-[12px]   "> <img src={frame6} alt="#frame6" /></div>
                             <div className="flex items-center   justify-center  w-[151px] h-[142px] bg-white rounded-[12px]"><img src={frame7} alt="#frame7" /></div>
                             <div className="flex items-center   justify-center  w-[196px] h-[142px] bg-white rounded-[12px]">  <img src={frame8} alt="#frame8" /></div>
@@ -45,7 +45,7 @@ function Intergration() {
 
                 </div>
             </Container>
-            <img className='absolute bottom-[-10px] left-[53px] ' src={intergrationlogo} alt="#intergrationlogo" />
+           <div className="hidden md:block"> <img className='absolute bottom-[-10px] left-[53px] ' src={intergrationlogo} alt="#intergrationlogo" /></div>
         </div>
 
     )
