@@ -46,11 +46,11 @@ function Testimonial() {
 
         <div className=" bg-[#F4FAFA]">
             <Container>
-                <div className="flex justify-between  ">
-                    <div className="py-[200px] w-[50%]">
-                        <h1 className=' font-paimary   font-bold text-[46px] leading-[58px] text-tittle w-[594px]'>What they are talking
+                <div className=" lg:flex justify-between  ">
+                    <div className=" py-[25px ] md:py-[200px]  lg:w-[50%]">
+                        <h1 className=' font-paimary   font-bold text-[46px] leading-[58px] text-tittle lg:w-[594px]'>What they are talking
                             about us?</h1>
-                        <p className='w-[503px] font-secondary  text-lg font-reguler  leading-[32px] text-details pt-[20px] pb-[40px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+                        <p className=' lg:w-[503px] font-secondary  text-lg font-reguler  leading-[32px] text-details pt-[20px] pb-[40px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
                         <a className='font-secondary  text-lg font-medium leading-[20px] py-[20px] px-[48px] bg-secondary rounded-[6px] text-white ' href="">Get Started</a>
 
                         <div className="flex relative mt-[85px]">
@@ -81,16 +81,16 @@ function Testimonial() {
                             </div>
                         </div>
                     </div>
-                   <div className=" w-[50%]">
+                   <div className=" lg:w-[50%]">
                  
                       <Slider {...settings} >
                             <div className="">
-                                <div className="relative py-[227px]">
+                                <div className="relative   py-[117px] md:py-[227px]">
                                 <div className=" px-[60px] pt-[60px] pb-[50px] bg-white rounded-[20px]  ">
-                                    <div className="absolute  top-[150px] left-[44px] w-[124px] h-[124px] rounded-full bg-gray-400 border-4 border-gray-100 ">
+                                    <div className="absolute  top-[50px] md:top-[150px] left-[44px]  w-[124px] h-[124px] rounded-full bg-gray-400 border-4 border-gray-100 ">
 
                                     </div>
-                                    <p className='w-[567px] font-secondary  text-[22px] font-reguler  leading-[44px] text-[#6C6E81]  pb-[33px] '>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                    <p className=' lg:w-[567px] font-secondary   text-[19px]  md:text-[22px] font-reguler  leading-[35px] md:leading-[44px] text-[#6C6E81]  pb-[24px] md:pb-[33px] '>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
                                     <div className="flex">
                                         <div className="">
                                             <h3 className='font-paimary   font-bold text-[#30344E] text-[24px] leading-[36px]'>Robert Fox</h3>
@@ -109,12 +109,12 @@ function Testimonial() {
                                 </div>
                             </div>
                               <div className="">
-                                <div className="relative py-[227px]">
+                                <div className="relative   py-[117px] md:py-[227px]">
                                 <div className=" px-[60px] pt-[60px] pb-[50px] bg-white  rounded-[20px]  ">
-                                    <div className="absolute  top-[150px] left-[44px] w-[124px] h-[124px] rounded-full bg-gray-400 border-4 border-gray-100 ">
+                                    <div className="absolute  top-[50px] md:top-[150px] left-[44px]  w-[124px] h-[124px] rounded-full bg-gray-400 border-4 border-gray-100 ">
 
                                     </div>
-                                    <p className='w-[567px] font-secondary  text-[22px] font-reguler  leading-[44px] text-[#6C6E81]  pb-[33px] '>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                    <p className='  lg:w-[567px] font-secondary   text-[19px]  md:text-[22px] font-reguler  leading-[35px] md:leading-[44px] text-[#6C6E81]  pb-[24px] md:pb-[33px] '>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
                                     <div className="flex">
                                         <div className="">
                                             <h3 className='font-paimary   font-bold text-[#30344E] text-[24px] leading-[36px]'>Robert Fox</h3>

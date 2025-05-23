@@ -16,20 +16,20 @@ function Footer() {
   return (
     <Container>
       <div className="pt-[160px] pb-[124px]">
-        <div className="   relative  bg-[#4347B7] rounded-[10px] h-[316px]  overflow-hidden p-[100px]  ">
-          <img className=' absolute top-0 left-[100px] w-full' src={line} alt="" />
-          <div className="flex justify-between text-center items-center ">
-            <h1 className='font-paimary font-bold text-[46px] leading-[58px] text-white w-[577px]'>Don’t find the answer? contact us for any query.</h1>
-            <button className='font-secondary font-medium text-lg leading-[20px] text-tittle py-[20px] px-[48px] rounded-[10px] bg-paimary relative z-50 '>Contact Us</button>
+        <div className="  md:relative  bg-[#4347B7] rounded-[10px] lg:h-[316px]  overflow-hidden p-[60px] md:p-[100px]  ">
+          <img className='  md:absolute top-0 left-[100px] w-full' src={line} alt="" />
+          <div className=" flex flex-col md:flex-row justify-between text-center items-center ">
+            <h1 className='font-paimary font-bold  text-[32px] md:text-[46px] leading-[44px]  md:leading-[58px] text-white lg:w-[577px]'>Don’t find the answer? contact us for any query.</h1>
+            <button className='font-secondary font-medium text-lg leading-[20px] text-tittle py-[20px] px-[48px] rounded-[10px] bg-paimary relative z-50  md:mt-[33px]'>Contact Us</button>
           </div>
 
         </div>
       </div>
 
       {/* BOTTOM PART */}
-      <div className=" flex justify-between  pb-[86px] ">
-        <div className="w-[25%] ">
-          <img src={logo} alt="#logo" />
+      <div className="  flex flex-col  md:flex-row  justify-center  md:justify-between    pb-[86px] ">
+        <div className="  w-[100%] md:w-[25%]  ">
+          <img className=' ' src={logo} alt="#logo" />
           <p className='w-[263px] font-secondary font-reguler text-[16px] leading-[28px] text-details pt=[26px] pb-[24px]  '>Build a modern and creative website with Innovate.</p>
           <div className=" flex gap-[6px]">
             <a className='py-[12px] px-[12px]  bg-gray-100 rounded-full ' href=""><FaGoogle /></a>
