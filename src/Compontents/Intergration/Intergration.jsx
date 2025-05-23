@@ -24,20 +24,20 @@ function Intergration() {
                     </div>
 
                     <div className=" pt-[55px] md:pt-[109px]  pb-[37px] md:pb-[135px] ">
-                        <div className="flex flex-col md:flex-row   justify-between w-[694px] mb-[35px]">
-                            <div className=" flex w-[332px] h-[142px] bg-white rounded-[12px] items-center  justify-center ">  <img src={frame1} alt="#frame1" /></div>
-                            <div className=" flex items-center   justify-center w-[332px] h-[142px] bg-white rounded-[12px]">   <img src={frame2} alt="#frame2" /></div>
+                        <div className="flex flex-col md:flex-row   justify-between lg:w-[694px] w-full mb-[35px]">
+                            <div className=" flex lg:w-[332px] w-full h-[142px] bg-white rounded-[12px] items-center  justify-center ">  <img src={frame1} alt="#frame1" /></div>
+                            <div className="  flex items-center   justify-center  lg:w-[332px] w-full h-[142px] bg-white rounded-[12px]">   <img src={frame2} alt="#frame2" /></div>
                         </div>
-                        <div className=" flex flex-col md:flex-row  justify-between  w-[694px] mb-[35px]">
-                            <div className=" flex items-center   justify-center  w-[151px] h-[142px] bg-white rounded-[12px]   "> <img src={frame3} alt="#frame3" /></div>
-                            <div className="flex items-center   justify-center  w-[332px] h-[142px] bg-white rounded-[12px]"><img src={frame4} alt="#frame4" /></div>
-                            <div className="flex items-center   justify-center  w-[151px] h-[142px] bg-white rounded-[12px]">  <img src={frame5} alt="#frame5" /></div>
+                        <div className=" flex flex-col md:flex-row  justify-between  lg:w-[694px] w-full mb-[35px]">
+                            <div className="  flex items-center    justify-center   lg:w-[151px] w-full  h-[142px] bg-white rounded-[12px]   "> <img src={frame3} alt="#frame3" /></div>
+                            <div className="flex items-center   justify-center  lg:w-[332px] w-full h-[142px] bg-white rounded-[12px]"><img src={frame4} alt="#frame4" /></div>
+                            <div className="flex items-center   justify-center  lg:w-[151px] w-full h-[142px] bg-white rounded-[12px]">  <img src={frame5} alt="#frame5" /></div>
 
                         </div>
-                        <div className=" flex flex-col md:flex-row   md:justify-between  w-[694px] mb-[35px]">
-                            <div className=" flex items-center   justify-center  w-[290px] h-[142px] bg-white rounded-[12px]   "> <img src={frame6} alt="#frame6" /></div>
-                            <div className="flex items-center   justify-center  w-[151px] h-[142px] bg-white rounded-[12px]"><img src={frame7} alt="#frame7" /></div>
-                            <div className="flex items-center   justify-center  w-[196px] h-[142px] bg-white rounded-[12px]">  <img src={frame8} alt="#frame8" /></div>
+                        <div className=" flex flex-col md:flex-row   md:justify-between  lg:w-[694px] w-full mb-[35px]">
+                            <div className=" flex items-center   justify-center  lg:w-[290px] w-full h-[142px] bg-white rounded-[12px]   "> <img src={frame6} alt="#frame6" /></div>
+                            <div className="flex items-center   justify-center  lg:w-[151px] w-fullu h-[142px] bg-white rounded-[12px]"><img src={frame7} alt="#frame7" /></div>
+                            <div className="flex items-center   justify-center  lg:w-[196px] w-full h-[142px] bg-white rounded-[12px]">  <img src={frame8} alt="#frame8" /></div>
 
                         </div>
 
